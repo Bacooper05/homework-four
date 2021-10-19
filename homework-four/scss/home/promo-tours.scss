@@ -1,0 +1,142 @@
+.promo-tours {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -50px;
+  @media only screen and (max-width: 760px) {
+    .promo-tours {
+      flex-direction: column;
+      .promo1 {
+        margin-bottom: 20px;
+      }
+      .promo2 {
+        margin-bottom: 20px;
+      }
+      .promo3 {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .promo1 {
+    min-height: 304px;
+    width: 236px;
+    background-image: url(../images/tour-01.jpg);
+    opacity: 150%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+
+    .place {
+      color: white;
+      font-size: 60px;
+      font-family: PCExtra;
+      padding: 37px 0px 0px 0px;
+      text-transform: uppercase;
+    }
+
+    .price {
+      color: white;
+      font-size: 30px;
+      font-family: PCExtra;
+      text-transform: lowercase;
+    }
+
+    .learnMore {
+      width: 133px;
+      @include site-button;
+      align-items: center;
+      justify-content: center;
+      margin-left: 52px;
+      margin-top: 37px;
+    }
+  }
+
+  .promo2 {
+    min-height: 304px;
+    width: 236px;
+    background-image: url(../images/tour-02.jpg);
+    opacity: 150%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+
+    .place {
+      color: white;
+      font-size: 60px;
+      font-family: PCExtra;
+      padding: 37px 0px 0px 0px;
+      text-transform: uppercase;
+    }
+
+    .price {
+      color: white;
+      font-size: 30px;
+      font-family: PCExtra;
+      text-transform: lowercase;
+    }
+
+    .learnMore {
+      width: 133px;
+      @include site-button;
+      align-items: center;
+      justify-content: center;
+      margin-left: 52px;
+      margin-top: 37px;
+    }
+  }
+
+  .promo3 {
+    min-height: 304px;
+    width: 236px;
+    background-image: url(../images/tour-03.jpg);
+    opacity: 150%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+
+    .place {
+      color: white;
+      font-size: 60px;
+      font-family: PCExtra;
+      padding: 37px 0px 0px 0px;
+      text-transform: uppercase;
+    }
+
+    .price {
+      color: white;
+      font-size: 30px;
+      font-family: PCExtra;
+      text-transform: lowercase;
+    }
+
+    .learnMore {
+      width: 133px;
+      @include site-button;
+      align-items: center;
+      justify-content: center;
+      margin-left: 52px;
+      margin-top: 37px;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .promo-tours {
+    flex-direction: column;
+    .promo1 {
+      margin-bottom: 20px;
+    }
+    .promo2 {
+      margin-bottom: 20px;
+    }
+    .promo3 {
+      margin-bottom: 20px;
+    }
+  }
+}
